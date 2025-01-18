@@ -96,6 +96,7 @@ ul {
   align-items: center;
   padding: 24px 0;
   margin-left: auto;
+  gap: 40px;
 }
 
 .header-contacts:hover {
