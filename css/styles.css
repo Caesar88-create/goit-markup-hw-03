@@ -132,18 +132,23 @@ ul {
 }
 
 .text-container-nav {
-  display: flex;
   text-align: left;
-  gap: 24px;
   max-width: 1128px;
   align-items: center;
   margin-left: auto;
   padding: 0 15px;
   margin: 0 auto;
+  padding: 120px 0;
 }
 
 .text-container {
+  display: flex;
+  gap: 24px;
   padding: 120px 0;
+  align-items: top;
+  margin-left: auto;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 
 .text-three {
