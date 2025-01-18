@@ -12,11 +12,29 @@ ul {
   list-style-type: none;
 }
 
-.header {
+.page-header {
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   color: #4d5ae5;
+  border-bottom: 1px solid #e7e9fc;
+}
+
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  max-width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 
 .header-logo {
@@ -25,7 +43,9 @@ ul {
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: -0,03em;
-  color:#2e2f42; 
+  color:#2e2f42;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header-logo-blue {
@@ -35,11 +55,17 @@ ul {
   line-height: 1.17;
   letter-spacing: -0,03em;
   color: #4d5ae5;  
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header-menu-list {
   font-weight: 500;
   line-height: 1.5;
+  display: flex;
+  gap: 40px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header-menu-link {
@@ -66,6 +92,10 @@ ul {
   letter-spacing: 0.02em;
   color: #434455;
   font-size: 16px;
+  display: flex;
+  align-items: center;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header-contacts:hover {
@@ -82,6 +112,10 @@ ul {
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
+  padding-top: 188px;
+  padding-bottom: 292px;
+  padding-left: 472px; 
+  padding-right: 472px; 
 }
 
 .hero-title {
@@ -140,7 +174,7 @@ ul {
 }
 
 [type] {
-  background-color: #4d5ae5;
+  background-color: #4d5ae5; 
 }
 
 .hero-title {
