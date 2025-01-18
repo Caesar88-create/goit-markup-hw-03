@@ -142,6 +142,8 @@ ul {
 }
 
 .text-container {
+  text-align: left;
+  max-width: 1128px;
   display: flex;
   gap: 24px;
   padding: 120px 0;
