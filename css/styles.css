@@ -151,11 +151,11 @@ ul {
 
 .team-section {
   background-color: #F4F4FD;
+  align-items: center;  
 }
 
 .team-container-nav {
   display: flex;
-  align-items: center;  
 }
 
 .team-container {
@@ -265,7 +265,6 @@ ul {
 
 .portfolio-nav {
   display: flex;
-  align-items: center;  
   padding-bottom: 112px 0;
   padding-top: 48px 0;
   margin-left: auto;
