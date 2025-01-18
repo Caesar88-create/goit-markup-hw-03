@@ -134,11 +134,12 @@ ul {
 .text-container-nav {
   display: flex;
   align-items: center;
+  text-align: left;
+  gap: 24px;
 }
 
 .text-container {
   padding: 120px 0;
-  gap: 24px;
   margin-left: auto;
 }
 
@@ -160,18 +161,18 @@ ul {
 .team-container {
   display: flex;
   align-items: center;
+  gap: 24px;
+  text-align: center;
 }
 
 .team {
   font-size: 36px;
   line-height: 1.11;
-  text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
   padding-bottom: 234px 0;
-  padding-bottom: 120px 0;
-  gap: 24px;
+  padding-top: 120px 0;
   margin-left: auto;
 }
 
@@ -252,10 +253,19 @@ ul {
   color:#434455;
 }
 
+.portfolio-nav {
+  display: flex;
+  align-items: center;  
+  padding-bottom: 112px 0;
+  padding-top: 48px 0;
+  margin-left: auto;
+  gap: 24px;
+}
+
 .portfolio-h {
   font-size: 36px;
   line-height: 1.11;
-  text-align: center;
+  text-align: left;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color:#2e2f42;
