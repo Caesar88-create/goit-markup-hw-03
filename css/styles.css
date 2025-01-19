@@ -1,15 +1,39 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
+  margin: 0 auto;
 }
 
 a {
   text-decoration: none;
 }
 
-ul {
+img {
+  max-width: 100%;
+  display: block;
+}
+
+ul, ol {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6, 
+p {
+    margin: 0;
 }
 
 .section {
@@ -43,8 +67,6 @@ ul {
     line-height: 1.17;
     letter-spacing: -0,03em;
     color:#2e2f42;
-    padding: 24px 0;
-    margin-right: 76px;
 }
 
 .header-logo-blue {
@@ -65,8 +87,6 @@ ul {
   gap: 40px;
   align-items: center;
   padding: 24px 0;
-  width: 1158px;
-  padding: 0 15px;
 }
 
 .header-menu-link {
@@ -125,6 +145,7 @@ ul {
   color: #ffffff;
   max-width: 496px;
   margin: auto;
+  margin-bottom: 48px;
 }
 
 .advantages {
@@ -185,10 +206,9 @@ ul {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
-  padding-bottom: 234px 0;
-  padding-top: 120px 0;
   margin-left: auto;
   margin-bottom: 72px;
+  text-align: center;
 }
 
 .team-container {
@@ -196,9 +216,7 @@ ul {
   align-items: center;
   gap: 24px;
   text-align: center;
-  padding: 0 15px;
   margin: 0 auto;
-  padding-bottom: 120px;
   background-color: #ffffff;
 }
 
@@ -267,17 +285,6 @@ ul {
 
 .hero-btn:focus {
   background-color: #404BBF;
-}
-
-.team {
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: #2e2f42;
-  padding-top: 120px;
-  padding-bottom: 72px;
 }
 
 .team-h {
