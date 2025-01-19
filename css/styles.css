@@ -129,11 +129,6 @@ ul {
 
 .advantages {
   padding: 120px 0;
-  display: flex;
-  gap: 24px;
-  width: calc((100% - 72px) / 4);
-  margin-bottom: 8px;
-  margin: auto;
 }
 
 .visually-hidden {
@@ -151,6 +146,7 @@ ul {
 
 .text-container-nav {
   align-items: center;
+  display: flex;
 }
 
 .text-container {
@@ -180,6 +176,7 @@ ul {
 .team-section {
   background-color: #F4F4FD;
   align-items: center; 
+  padding: 120px 0;
 }
 
 .team-container-nav {
@@ -205,10 +202,17 @@ ul {
   padding-bottom: 234px 0;
   padding-top: 120px 0;
   margin-left: auto;
+  margin-bottom: 72px;
 }
 
 .li-team {
   background-color: #ffffff;
+  width: calc((100% - 72px) / 4); 
+  border-radius: 0px 0px 4px 4px;
+}
+
+.worker {
+  padding: 32px 0;
 }
 
 .team-h {
@@ -217,6 +221,8 @@ ul {
   font-size: 20px;
   line-height: 120%;
   letter-spacing: 0.02em;
+  text-align: center;
+  margin-bottom: 8px;
 }
 
 .team-p {
@@ -228,6 +234,7 @@ ul {
   letter-spacing: 0.02em;  
   font-size: 16px;
   line-height: 1.5;
+  text-align: center;
 }
 
 [type] {
