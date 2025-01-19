@@ -147,14 +147,8 @@ ul {
 }
 
 .text-container {
-  text-align: left;
-  max-width: 1128px;
-  display: flex;
   gap: 24px;
-  padding: 120px 0;
-  align-items: top;
-  padding: 0 15px;
-  margin: 0 auto;
+  display: flex;
 }
 
 .text-container-item {
