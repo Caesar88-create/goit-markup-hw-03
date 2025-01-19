@@ -129,6 +129,11 @@ ul {
 
 .advantages {
   padding: 120px 0;
+  display: flex;
+  gap: 24px;
+  width: calc((100% - 72px) / 4);
+  margin-bottom: 8px;
+  margin: auto;
 }
 
 .visually-hidden {
@@ -143,14 +148,6 @@ ul {
   clip: rect(0 0 0 0);
   overflow: hidden;
   }
-
-.container2 {
-  display: flex;
-  gap: 24px;
-  width: calc((100% - 72px) / 4);
-  margin-bottom: 8px;
-  margin: auto;
-} 
 
 .text-container-nav {
   align-items: center;
