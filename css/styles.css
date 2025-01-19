@@ -202,11 +202,11 @@ ul {
   margin: 0 auto;
   padding-bottom: 120px;
   background-color: #ffffff;
-  border-radius: 0px 0px 4px 4px;
 }
 
 .li-team {
   width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .worker {
