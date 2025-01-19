@@ -129,7 +129,6 @@ ul {
 
 .advantages {
   padding: 120px 0;
-  width: calc((100% - 72px) / 4);
 }
 
 .visually-hidden {
@@ -178,7 +177,6 @@ ul {
   background-color: #F4F4FD;
   align-items: center; 
   padding: 120px 0;
-  width: calc((100% - 72px) / 4);
 }
 
 .team {
