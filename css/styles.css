@@ -143,7 +143,6 @@ ul {
 }
 
 .text-container-nav {
-  text-align: left;
   align-items: center;
 }
 
@@ -154,7 +153,6 @@ ul {
   gap: 24px;
   padding: 120px 0;
   align-items: top;
-  margin-left: auto;
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -360,6 +358,8 @@ ul {
   line-height: 1.17;
   letter-spacing: -0,03em;
   color:#4d5ae5; 
+  display: inline-block; 
+  margin-bottom: 16px; 
 }
 
 .footer-logo-two {
@@ -373,5 +373,5 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color:#f4f4fd;
-  font-size: 16px;
+  font-size: 16px; 
 }
