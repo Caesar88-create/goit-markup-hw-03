@@ -179,19 +179,6 @@ ul {
   padding: 120px 0;
 }
 
-.team-container-nav {
-  padding-bottom: 120px;
-}
-
-.team-container {
-  display: flex;
-  align-items: center;
-  gap: 24px;
-  text-align: center;
-  padding: 0 15px;
-  margin: 0 auto;
-}
-
 .team {
   font-size: 36px;
   line-height: 1.11;
@@ -202,6 +189,16 @@ ul {
   padding-top: 120px 0;
   margin-left: auto;
   margin-bottom: 72px;
+}
+
+.team-container {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  text-align: center;
+  padding: 0 15px;
+  margin: 0 auto;
+  padding-bottom: 120px;
 }
 
 .li-team {
