@@ -126,23 +126,12 @@ ul {
   max-width: 496px;
 }
 
-.text {
-  letter-spacing: 0.02em;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  color: #2e2f42;
+.advantages {
+  padding: 120px 0;
 }
 
 .text-container-nav {
   text-align: left;
-  max-width: 1128px;
-  align-items: center;
-  margin-left: auto;
-  padding: 0 15px;
-  margin: 0 auto;
-  padding: 120px 0;
-  display: flex;
   align-items: center;
 }
 
@@ -156,6 +145,19 @@ ul {
   margin-left: auto;
   padding: 0 15px;
   margin: 0 auto;
+}
+
+.text-container-item {
+  width: calc((100% - 72px) / 4);
+}
+
+.text {
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .text-three {
