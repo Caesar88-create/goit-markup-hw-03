@@ -154,10 +154,6 @@ ul {
   display: flex;
 }
 
-.text-container-item {
-  width: calc((100% - 72px) / 4);
-}
-
 .text {
   letter-spacing: 0.02em;
   font-weight: 500;
