@@ -144,6 +144,14 @@ ul {
   overflow: hidden;
   }
 
+.container2 {
+  display: flex;
+  gap: 24px;
+  width: calc((100% - 72px) / 4);
+  margin-bottom: 8px;
+  margin: auto;
+} 
+
 .text-container-nav {
   align-items: center;
 }
